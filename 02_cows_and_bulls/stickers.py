@@ -1,0 +1,3 @@
+start_sticker = 'CAACAgIAAxkBAAIWHWQDas-CNasq9Ve4aPeeOuQvKNTMAAKkAAOvxlEaBO5i_vR9pdsuBA'
+go_sticker = 'CAACAgIAAxkBAAIWJmQDbCo8uKl77RHto08gQ0nKfDxvAALYAAMvD_AGgNfqlLIRiP4uBA'
+question_sticker = 'CAACAgIAAxkBAAIWKWQDbLUqqDXwGewAAZIQ4JL4UevQdAACcAQAApzW5wp76bvlRrFvNS4E'
