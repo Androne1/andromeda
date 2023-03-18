@@ -25,7 +25,7 @@ def start(update: Update, context: CallbackContext):
         one_time_keyboard = True,
         input_field_placeholder = f'Нажми на кнопку "{GO}", поиграем!'
     )
-    update.message.reply_sticker(satrt_sticker)
+    update.message.reply_sticker(start_sticker)
     update.message.reply_text(
         'В этой игре компьютер загадывает слово, и говорит тебе, сколько в нем букв')
     update.message.reply_text('Ты говоришь слово из такого же количества букв')
