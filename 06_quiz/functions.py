@@ -9,7 +9,7 @@ import random
 import time
 
 GO = 'Вперёд'
-QUESTION_COUNT = 3
+QUESTION_COUNT = 10
 GAME, FINISH = 1, 2
 
 def read_csv():

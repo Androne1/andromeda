@@ -1,0 +1,4 @@
+python_sticker = 'CAACAgIAAxkBAAIXuWQxbwFsQ4Lsu5iu6gnDdYfL2iFDAAJcAQAC5bkIGnBG5D_edkxALwQ'
+butler_start = 'CAACAgIAAxkBAAIXv2Qxcdq2_17FmXsrkK2aOimW66sGAAJcCwACuIaoS7EiwXXOZWHILwQ'
+menu_sticker = 'CAACAgIAAxkBAAIXy2QxjTCmpChuavQzZSiG6xpXZxwEAAJWCwACAx2gS_X90lKjP9ZFLwQ'
+bullshit_sticker = 'CAACAgIAAxkBAAIX8mQxjvRZGtwsPjwDvIDzdTFC8PZMAAIuDgACmrDJSKj-4tAbP_yqLwQ'
