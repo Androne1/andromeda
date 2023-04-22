@@ -6,7 +6,9 @@ from telegram.ext import (
     CommandHandler,
     ConversationHandler
 )
-from functions import *
+from start_menu import *
+from interrupt import *
+from create import add_handler
 
 
 updater = Updater(TOKEN)
@@ -15,7 +17,12 @@ dispatcher = updater.dispatcher
 conv_handler = ConversationHandler(
     entry_points=[CommandHandler('start', start)],
     states={
-        MENU: [MessageHandler(Filters.text & ~Filters.command, get_menu)]
+        MENU: [MessageHandler(Filters.text & ~Filters.command, get_menu)],
+        MENU_ITEMS: [
+            add_handler,
+            MessageHandler(Filters.text & ~Filters.command, fool_protection)
+            ]
+        
         },
     fallbacks=[CommandHandler('end', end)]
 )

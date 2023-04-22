@@ -4,4 +4,4 @@ READ = 'Посмотреть дело'
 UPDATE = 'Изменить дело'
 DELETE = 'Удалить дело'
 COMPLETE = 'Дело сделано'
-MENU = 1
+MENU, MENU_ITEMS, TASK = range(3)
